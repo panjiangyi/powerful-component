@@ -1,4 +1,4 @@
-#[powerful-componet](https://github.com/panjiangyi/powerful-component)
+# [powerful-componet](https://github.com/panjiangyi/powerful-component)
 
 > 觉得好用的话，兄弟们帮忙点个 star。
 > [仓库地址](https://github.com/panjiangyi/powerful-component)
