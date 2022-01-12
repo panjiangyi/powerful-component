@@ -1,3 +1,3 @@
-# powerful-component
+# Powerful Component
 
-A super powerful component definer
+顾名思义
