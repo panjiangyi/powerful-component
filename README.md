@@ -1,4 +1,4 @@
-#[powerful-componet](https://github.com/panjiangyi/powerful-component)
+# [powerful-componet](https://github.com/panjiangyi/powerful-component)
 
 > 觉得好用的话，兄弟们帮忙点个 star。
 > [仓库地址](https://github.com/panjiangyi/powerful-component)
@@ -65,14 +65,12 @@ export default powerfulDefineComponent({
 <script lang="ts">
 import powerfulDefineComponent from 'powerful-component';
 export default powerfulDefineComponent({
-  methods: {
     async created() {
       await new Promise((done) => setTimeout(done, 1000));
     },
     async mounted() {
       await new Promise((done) => setTimeout(done, 2000));
     },
-  },
 });
 </script>
 
