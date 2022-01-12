@@ -1,3 +1,4 @@
+import './type/index';
 import { defineComponent } from 'vue';
 type VueObjType = Parameters<typeof defineComponent>[0];
 
@@ -121,3 +122,10 @@ function powerfulDefineComponent(
 }
 
 export default powerfulDefineComponent as typeof defineComponent;
+
+declare module '@vue/runtime-core' {
+  // eslint-disable-next-line functional/prefer-type-literal
+  interface ComponentCustomProperties {
+    pageIsReady: boolean;
+  }
+}
