@@ -65,14 +65,12 @@ export default powerfulDefineComponent({
 <script lang="ts">
 import powerfulDefineComponent from 'powerful-component';
 export default powerfulDefineComponent({
-  methods: {
     async created() {
       await new Promise((done) => setTimeout(done, 1000));
     },
     async mounted() {
       await new Promise((done) => setTimeout(done, 2000));
     },
-  },
 });
 </script>
 
