@@ -109,7 +109,7 @@ function hijackMethods(vueObj: VueObjType) {
   });
 }
 
-export function powerfulDefineComponent(
+function powerfulDefineComponent(
   ...params: Parameters<typeof defineComponent>
 ) {
   const vueObj = params[0];
@@ -119,3 +119,5 @@ export function powerfulDefineComponent(
   hijackMethods(vueObj);
   return defineComponent(...params);
 }
+
+export default powerfulDefineComponent as typeof defineComponent;
